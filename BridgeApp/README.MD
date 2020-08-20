@@ -1,5 +1,9 @@
 ﻿# BridgeApp
 
+## About this code
+
+In the following code I use the approach where **devices** and **remote controls** are divided into its own hierarchies, so the _Remote_ will be the **bridge** between all _Devices_, if the Device is a TV the Remote will operate in certain manner, and if its a Radio should behave in differnt way.
+
 ## Bridge Pattern
 
 This is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies (abstraction and implementation) which can be developed independently of each other.
