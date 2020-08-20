@@ -30,7 +30,10 @@ namespace BridgeApp.Controls
             if (device.IsEnabled())
             {
                 device.Disable();
-                device.SetChannel(1);
+                if (device.Type() == "Radio")
+                    device.SetChannel(86.0);
+                else
+                    device.SetChannel(1);
                 device.SetVolume(0);
             }
             else
