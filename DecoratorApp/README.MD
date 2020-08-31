@@ -1,6 +1,8 @@
 ﻿# DecoratorApp
 
 ## About this code
+ 
+Imagine that you have an application for notify message via email, so I have a class **Notifier** to do that, but with the time clients also wants to send their messages via slack or facebook or SMS or combining those, here is when I use the __decorator__ to decorate the way that all of these platforms send messages.
 
 ## Decorator Pattern
 

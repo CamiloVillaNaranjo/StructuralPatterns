@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DecoratorApp.Decorator;
+using DecoratorApp.Notifier;
+using System;
 
 namespace DecoratorApp
 {
@@ -6,7 +8,12 @@ namespace DecoratorApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var notifier = new SmsDecorator(new MessageNotifier());
+            notifier.Send("please I need a PCI card for connect to network.", "");
+            Console.ReadLine();
         }
     }
 }
+
+
+
