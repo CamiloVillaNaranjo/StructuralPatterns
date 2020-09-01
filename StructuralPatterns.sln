@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterApp", "AdapterApp\Ad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeApp", "BridgeApp\BridgeApp.csproj", "{3F376BF5-78D8-4D0B-A915-43028EA2E233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeApp", "CompositeApp\CompositeApp.csproj", "{4C3C6CC8-F18F-4A6D-8718-85262CF5ABF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeApp", "CompositeApp\CompositeApp.csproj", "{4C3C6CC8-F18F-4A6D-8718-85262CF5ABF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorApp", "DecoratorApp\DecoratorApp.csproj", "{D87503AF-8B1E-4C89-9DF3-CA7255C27A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorApp", "DecoratorApp\DecoratorApp.csproj", "{D87503AF-8B1E-4C89-9DF3-CA7255C27A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeApp", "FacadeApp\FacadeApp.csproj", "{50B8AAFA-C64A-4FF0-9139-AF01E4C6E379}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D87503AF-8B1E-4C89-9DF3-CA7255C27A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D87503AF-8B1E-4C89-9DF3-CA7255C27A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D87503AF-8B1E-4C89-9DF3-CA7255C27A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B8AAFA-C64A-4FF0-9139-AF01E4C6E379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B8AAFA-C64A-4FF0-9139-AF01E4C6E379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B8AAFA-C64A-4FF0-9139-AF01E4C6E379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B8AAFA-C64A-4FF0-9139-AF01E4C6E379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
