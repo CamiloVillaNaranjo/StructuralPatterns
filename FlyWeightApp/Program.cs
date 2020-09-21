@@ -2,6 +2,7 @@
 
 namespace FlyWeightApp
 {
+
     class Program
     {
         static void Main(string[] args)
